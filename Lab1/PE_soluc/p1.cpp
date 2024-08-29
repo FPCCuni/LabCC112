@@ -1,7 +1,8 @@
 /*
-Escribe un programa en C++ que solicite al usuario ingresar 7 números enteros,
-a continuación calcule y muestre el promedio de dichos números.
+Escribe un programa en C++ que solicite al usuario ingresar 7 nï¿½meros enteros,
+a continuaciï¿½n calcule y muestre el promedio de dichos nï¿½meros.
 
+Comentarios
 */
 
 #include <iostream>
