@@ -1,1 +1,1 @@
-# CC112A Lab
+# Laboratorios CC112
