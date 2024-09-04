@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib> // srand(), rand()
 using namespace std;
 
 void imprimir(int a[], int n){
@@ -24,6 +25,8 @@ void ordSeleccion(int a[], int n){
 
 
 int main(){
+
+    cout << "RAND_MAX= " << RAND_MAX <<endl;
 
     int a[] = {2,5, 8,2,-1,6};
 
