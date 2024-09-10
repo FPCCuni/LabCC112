@@ -1,7 +1,8 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
-void ordBurbuja(string  a){
+void ordBurbuja(string & a){
     int n = a.length();
     for(int i = 0; i < n; i++){
         for(int j = 0; j <n-1; j++){
