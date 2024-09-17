@@ -164,16 +164,15 @@ Se puede sumar o restar un número entero a un puntero. Puede utilizar esta cons
 ```cpp
 //completar...corregir errores
 // Calculating the length of string
-char *hello = "hello";
-char *i = hello; // i point to hellow first character
+const char *hello = "hello";
+const char *i = hello; // i point to hellow first character
 int length = 0;
-while (*i != '') {
-
+while (*i != '\0') {
   length++;
-  i++; // pointer addtion: move to next character
+  i++; // aritmética de punteros: move to next character
 }
-
-printf("length of %s is %d", hello, length);
+cout << "La longitud de " << hello << " es " << length <<endl;
+//printf("length of %s is %d", hello, length);
 ``` 
 
 
