@@ -11,7 +11,7 @@ int m = 1111; // tipo, nombre, valor y dirección
 
 * Una variable puede abarcar varios bytes. Por ejemplo una variable de tipo `int` se almacena en 4 bytes; tiene 4 direcciones pero siempre usamos la dirección del primer byte, por lo tanto, **la dirección de una variable siempre signnifica la dirección de su primer byte** ¿?
 
-## Puntero
+## Punteros
 
 Un puntero en una variable que apunta a otra variable. **El valor de un puntero es la dirección de memoria de otra variable**
 
