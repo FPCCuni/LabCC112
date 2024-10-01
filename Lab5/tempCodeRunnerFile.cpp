@@ -1,0 +1,1 @@
+ busqLinealChar(s, 'c')
